@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="title">Weather App</header>
+    <div class="container">
+        <h3 id="subtit">Weather Aplication<br>Please enter a city</h3>
+        <input type="text" id="input-city" placeholder="Ingrese la cuidad :">
+        <button type="button" id="btnSearch">Search</button>
+        <label for="options">Advance Search : </label>
+        <select id="advOptions">
+            <option value="opDefault" label="Default">1</option>
+            <option value="opRain" label="Rain precipitation">2</option>
+            <option value="opSun" label="Uv index">3</option>
+            <option value="opMap" label="Map">4</option>
+        </select>
+        <div id="data"></div>
+        <div id="data2"></div>        
+    </div>
+    
+    <script src="/script.js"></script>
+</body>
+</html>
